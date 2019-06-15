@@ -1,6 +1,6 @@
 .list-title ~ ul > li {
     color: #FFF;
-    margin-left: 10px;
+    margin-left: 10px!important;
     margin-bottom: .3em;
 }
 
@@ -58,4 +58,17 @@
         padding-top: 200vh!important;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .site-logo {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .list-title ~ ul > li {
+        margin-left: 25px!important;
+    }
+}
+
 
